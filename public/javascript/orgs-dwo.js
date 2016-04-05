@@ -1,4 +1,4 @@
-module.exports = {f
+module.exports = {
    "projects": [
     {"name": "apache/incubator-systemml", "type": "repo"},
     {"name": "node-red/node-red", "type": "repo"},
