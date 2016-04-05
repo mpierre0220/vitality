@@ -1,4 +1,4 @@
-module.exports = {
+module.exports = {f
    "projects": [
     {"name": "apache/incubator-systemml", "type": "repo"},
     {"name": "node-red/node-red", "type": "repo"},
@@ -20,8 +20,7 @@ module.exports = {
     {"name": "ibmstorage/jcadf", "type": "repo"},
     {"name": "djwillia/solo5", "type": "repo"},
     {"name": "quarks-edge/quarks", "type": "repo"},
-    {"name": "jamiejennings/rosie-pattern-language", "type": "repo"},
-    {"name": "openblockchain/obc-peer", "type": "repo"},
+    {"name": "jamiejennings/rfosie-pattern-language", "type": "repo"},
     {"name": "openwhisk/openwhisk", "type": "repo"},
     {"name": "ibm-research/iostash", "type": "repo"},
     {"name": "aruniyengar/storage-client-library", "type": "repo"},
@@ -56,13 +55,10 @@ module.exports = {
     {"name": "ibm-bluemix-mobile-services/bms-clientsdk-android-security-googleauthentication", "type": "repo"},
     {"name": "ibm-bluemix-mobile-services/bms-clientsdk-android-security-facebookauthentication", "type": "repo"},
     {"name": "ibm-cds-labs/pipes", "type": "repo"},
-    {"name": "ibmalchemy/cadf", "type": "repo"},
     {"name": "ibm-cds-labs/metrics-collector", "type": "repo"},
     {"name": "ibm-cds-labs/metrics-analytics", "type": "repo"},
     {"name": "ibm-security-innovation/libsecurity-go", "type": "repo"},
     {"name": "ibm-security-innovation/crosscoap", "type": "repo"},
-    {"name": "watson-developer-cloud/unity-sdk", "type": "repo"},
-    {"name": "watson-developer-cloud/ios-sdk", "type": "repo"},
     {"name": "openblockchain/obc-peer", "type": "repo"},
     {"name": "ibm-security-innovation/goldy", "type": "repo"},
     {"name": "ibm-security-innovation/menagerie", "type": "repo"},
