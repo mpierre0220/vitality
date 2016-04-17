@@ -45,6 +45,7 @@ module.exports = {
     {"name": "watson-developer-cloud/speech-android-sdk", "type": "repo"},
     {"name": "watson-developer-cloud/java-sdk", "type": "repo"},
     {"name": "watson-developer-cloud/ios-sdk", "type": "repo"},
+    {"name": "watson-developer-cloud/python-sdk", "type": "repo"},
     {"name": "watson-developer-cloud/unity-sdk", "type": "repo"},
     {"name": "ibm-design/ios-animations", "type": "repo"},
     {"name": "ibm-design/web-animations", "type": "repo"},
