@@ -71,7 +71,7 @@ module.exports = {
     {"name": "OSLC/oslc-client", "type": "repo"},
     {"name": "OSLC/oslc-service", "type": "repo"},
     {"name": "OSLC/oslc-server", "type": "repo"},
-    {"name": "OSLC/ldp-app ", "type": "repo"},
+    {"name": "OSLC/ldp-app", "type": "repo"},
     {"name": "OSLC/ldp-service", "type": "repo"}
   ]
 };
