@@ -67,6 +67,11 @@ module.exports = {
     {"name": "ibm-xforce/xfe-node", "type": "repo"},
     {"name": "radum2275/merlin", "type": "repo"},
     {"name": "os-cloud-storage/openstack-workload-disaster-recovery", "type": "repo"},
-    {"name": "mrutkows/tosca-translator", "type": "repo"}
+    {"name": "mrutkows/tosca-translator", "type": "repo"},
+    {"name": "OSLC/oslc-client", "type": "repo"},
+    {"name": "OSLC/oslc-service", "type": "repo"},
+    {"name": "OSLC/oslc-server", "type": "repo"},
+    {"name": "OSLC/ldp-app ", "type": "repo"},
+    {"name": "OSLC/ldp-service", "type": "repo"}
   ]
 };
