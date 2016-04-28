@@ -73,6 +73,7 @@ module.exports = {
     {"name": "OSLC/oslc-server", "type": "repo"},
     {"name": "OSLC/ldp-app", "type": "repo"},
     {"name": "OSLC/ldp-service", "type": "repo"},
-    {"name": "aruniyengar/storage-client-library", "type": "repo"}
+    {"name": "aruniyengar/storage-client-library", "type": "repo"},
+    {"name": "IBM/SparkMultiuserBenchmark", "type": "repo"}
   ]
 };
