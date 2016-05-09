@@ -1,4 +1,4 @@
-bmodule.exports = {
+module.exports = {
    "projects": [
     {"name": "apache/incubator-systemml", "type": "repo"},
     {"name": "node-red/node-red", "type": "repo"},
@@ -75,6 +75,7 @@ bmodule.exports = {
     {"name": "aruniyengar/storage-client-library", "type": "repo"},
     {"name": "OSLC/ldp-service", "type": "repo"},
     {"name": "IBM/SparkMultiuserBenchmark", "type": "repo"},
-    {"name": "zosconnect/zosconnect-node", "type": "repo"}
+    {"name": "zosconnect/zosconnect-node", "type": "repo"},
+    {"name": "project-humix/humix-ng", "type": "repo"}
   ]
 };
