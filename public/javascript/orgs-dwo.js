@@ -77,6 +77,7 @@ module.exports = {
     {"name": "IBM/SparkMultiuserBenchmark", "type": "repo"},
     {"name": "zosconnect/zosconnect-node", "type": "repo"},
     {"name": "project-humix/humix-ng", "type": "repo"},
-    {"name": "ot4i/perf-harness", "type": "repo"}
+    {"name": "ot4i/perf-harness", "type": "repo"},
+    {"name": "aruniyengar/storage-manager", "type": "repo"}
   ]
 };
