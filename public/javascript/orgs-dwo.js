@@ -78,6 +78,10 @@ module.exports = {
     {"name": "zosconnect/zosconnect-node", "type": "repo"},
     {"name": "project-humix/humix-ng", "type": "repo"},
     {"name": "ot4i/perf-harness", "type": "repo"},
-    {"name": "aruniyengar/storage-manager", "type": "repo"}
+    {"name": "aruniyengar/storage-manager", "type": "repo"},
+    {"name": "strongloop/loopback", "type": "repo"},
+    {"name": "strongloop/loopback-sdk-ios", "type": "repo"},
+    {"name": "strongloop/loopback-sdk-android", "type": "repo"},
+    {"name": "strongloop/loopback-sdk-angular", "type": "repo"}
   ]
 };
