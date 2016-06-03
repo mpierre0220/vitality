@@ -85,6 +85,7 @@ module.exports = {
     {"name": "strongloop/loopback-sdk-angular", "type": "repo"},
     {"name": "ruscur/snowpatch", "type": "repo"},
     {"name": "ce-store/ce-store", "type": "repo"},
-    {"name": "ResilienceTesting/gremlinsdk-python", "type": "repo"}
+    {"name": "ResilienceTesting/gremlinsdk-python", "type": "repo"},
+    {"name": "IBM-Bluemix/docs", "type": "repo"}
   ]
 };
