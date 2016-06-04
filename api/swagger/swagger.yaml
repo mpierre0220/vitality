@@ -94,7 +94,33 @@ paths:
           schema:
             $ref: "#/definitions/ErrorResponse"
 
-
+  /getrepobyurl/{url}:
+    x-swagger-router-controller: core_getrepobyurl
+    get:
+      summary: Get data for a specific repository
+      description: |
+        Returns all data for a specific repository
+      operationId: getrepobyurl
+      parameters:
+        - name: url
+          in: path
+          description: The GitHub URL of the repository to be queried
+          required: true
+          type: string
+        - name: callback
+          in: query
+          description: Passed by .ajax call for cross-domain requests
+          required: false
+          type: string
+      responses:
+        200:
+          description: Success
+          schema:
+            $ref: "#/definitions/getrepoResponse"
+        400:
+          description: Error
+          schema:
+            $ref: "#/definitions/ErrorResponse"
 
   /getcommits/{id}:
     x-swagger-router-controller: core_getcommits
