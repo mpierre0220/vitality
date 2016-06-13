@@ -87,6 +87,6 @@ module.exports = {
     {"name": "ce-store/ce-store", "type": "repo"},
     {"name": "ResilienceTesting/gremlinsdk-python", "type": "repo"},
     {"name": "IBM-Bluemix/docs", "type": "repo"},
-    {"name": "ibm-research/SwiftHLM ", "type": "repo"}
+    {"name": "ibm-research/SwiftHLM", "type": "repo"}
   ]
 };
