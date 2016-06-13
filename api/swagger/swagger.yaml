@@ -94,7 +94,7 @@ paths:
           schema:
             $ref: "#/definitions/ErrorResponse"
 
-  /getrepobyurl/{url}:
+  /getrepobyurl/{html_url}:
     x-swagger-router-controller: core_getrepobyurl
     get:
       summary: Get data for a specific repository
@@ -102,7 +102,7 @@ paths:
         Returns all data for a specific repository
       operationId: getrepobyurl
       parameters:
-        - name: url
+        - name: html_url
           in: path
           description: The GitHub URL of the repository to be queried
           required: true

@@ -11,17 +11,19 @@ function getrepobyurl(req, res) {
 
   var callback = req.swagger.params.callback.value;
   if (typeof callback === 'undefined') callback = 'callback' + Date.now();
-  var url      = encodeURIComponent(req.swagger.params.url.value);
+  var url      = decodeURIComponent(req.swagger.params.html_url.value);
+  url="https://github.com/"+url;
+  url=url.replace("\\","/");
   var data = {};
 
   for (i=0; i < allrepos.length; i++) {
-    if (allrepos[i].url == url) {
+    if (allrepos[i].html_url == url) {
       data = allrepos[i];
       break;
     }
   }
 
-  if (data.hasOwnProperty('url')) {
+  if (data.hasOwnProperty('html_url')) {
     var retVal = {};
     retVal.success = true;
     retVal.data = data;
@@ -29,7 +31,7 @@ function getrepobyurl(req, res) {
     res.status(200).jsonp(JSON.stringify(retVal));
   }
   else {
-    var error = {'success': false, 'message': 'No repository with that URL could be found.', 'code': 130 };
+    var error = {'success': false, 'message': 'No repository with URL '+url+' could be found.', 'code': 130 };
     res.status(200).jsonp(JSON.stringify(error));
   }
 }
