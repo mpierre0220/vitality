@@ -88,6 +88,12 @@ module.exports = {
     {"name": "ResilienceTesting/gremlinsdk-python", "type": "repo"},
     {"name": "IBM-Bluemix/docs", "type": "repo"},
     {"name": "ibm-research/SwiftHLM", "type": "repo"},
-    {"name": "IBM-Bluemix/gp-common", "type": "repo"}
+    {"name": "IBM-Bluemix/gp-common", "type": "repo"},
+    {"name": "IBM-Bluemix/gp-python-client", "type": "repo"},
+    {"name": "IBM-Bluemix/gp-java-client", "type": "repo"},
+    {"name": "IBM-Bluemix/gp-angular-client", "type": "repo"},
+    {"name": "IBM-Bluemix/gp-js-client", "type": "repo"},
+    {"name": "IBM-Bluemix/gp-cordova-plugin", "type": "repo"},
+    {"name": "IBM-Bluemix/gp-ruby-client", "type": "repo"}
   ]
 };
