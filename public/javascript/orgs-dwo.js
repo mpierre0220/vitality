@@ -94,6 +94,7 @@ module.exports = {
     {"name": "IBM-Bluemix/gp-angular-client", "type": "repo"},
     {"name": "IBM-Bluemix/gp-js-client", "type": "repo"},
     {"name": "IBM-Bluemix/gp-cordova-plugin", "type": "repo"},
-    {"name": "IBM-Bluemix/gp-ruby-client", "type": "repo"}
+    {"name": "IBM-Bluemix/gp-ruby-client", "type": "repo"},
+    {"name": "IBM-Bluemix/gp-ucd-plugin", "type": "repo"}
   ]
 };
