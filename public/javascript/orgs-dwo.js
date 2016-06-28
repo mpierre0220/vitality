@@ -97,7 +97,8 @@ module.exports = {
     {"name": "IBM-Bluemix/gp-ruby-client", "type": "repo"},
     {"name": "IBM-Bluemix/gp-ucd-plugin", "type": "repo"},
     {"name": "ibm-security-innovation/libsecurity-c", "type": "repo"},
-    {"name": "tosca-lang/tosca", "type": "repo"}
+    {"name": "tosca-lang/tosca", "type": "repo"},
+    {"name": "amalgam8", "type": "org"}
 
   ]
 };
