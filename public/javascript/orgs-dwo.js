@@ -18,7 +18,6 @@ module.exports = {
     {"name": "cloudviz/agentless-system-crawler", "type": "repo"},
     {"name": "shmul/mule", "type": "repo"},
     {"name": "ibmstorage/jcadf", "type": "repo"},
-    {"name": "djwillia/solo5", "type": "repo"},
     {"name": "quarks-edge/quarks", "type": "repo"},
     {"name": "jamiejennings/rfosie-pattern-language", "type": "repo"},
     {"name": "openwhisk/openwhisk", "type": "repo"},
@@ -98,6 +97,7 @@ module.exports = {
     {"name": "IBM-Bluemix/gp-ucd-plugin", "type": "repo"},
     {"name": "ibm-security-innovation/libsecurity-c", "type": "repo"},
     {"name": "tosca-lang/tosca", "type": "repo"},
+    {"name": "solo5/solo5", "type": "org"},
     {"name": "amalgam8", "type": "org"}
 
   ]
