@@ -98,7 +98,7 @@ module.exports = {
     {"name": "ibm-security-innovation/libsecurity-c", "type": "repo"},
     {"name": "tosca-lang/tosca", "type": "repo"},
     {"name": "solo5/solo5", "type": "repo"},
-    {"name": "amalgam8", "type": "org"}
-
+    {"name": "amalgam8", "type": "org"},
+    {"name": "ibm-cds-labs/simple-search-service", "type": "repo"}
   ]
 };
