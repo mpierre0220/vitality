@@ -60,7 +60,7 @@ function getRepo(org, token) {
               'html_url': repos[repo].html_url,
               'created_at': DateTime.toDateTimeString(new Date(repos[repo].created_at)),
               'name': repos[repo].name,
-              'full_name': repos[repo].full_name,(repos[repo].full_name === 'jasnell/activitystrea.ms')
+              'full_name': repos[repo].full_name,
               'description': '', //repos[repo].description.replace(/'/g, '&lsquo').replace(/"/g, '&quot'),
               'language': repos[repo].language || 'null',
               'open_issues_count': repos[repo].open_issues_count || 0,
