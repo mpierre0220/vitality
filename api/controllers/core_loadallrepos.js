@@ -53,14 +53,14 @@ function getRepo(org, token) {
         // iterate through each repo in the result set
         repos = repos.concat(result);
         for (repo in repos) {
-          if ((repos[repo].fork === false) || (repos[repo].full_name === 'jasnell/activitystrea.ms')) {
+          if ((repos[repo].fork === false) || (repos[repo].full_name === 'jasnell/activitystrea.ms') || (repos[repo].full_name === 'ibm-cds-labs/simple-activity-search')) {
             data.push({
               'id': repos[repo].id,
               'url': repos[repo].url,
               'html_url': repos[repo].html_url,
               'created_at': DateTime.toDateTimeString(new Date(repos[repo].created_at)),
               'name': repos[repo].name,
-              'full_name': repos[repo].full_name,
+              'full_name': repos[repo].full_name,(repos[repo].full_name === 'jasnell/activitystrea.ms')
               'description': '', //repos[repo].description.replace(/'/g, '&lsquo').replace(/"/g, '&quot'),
               'language': repos[repo].language || 'null',
               'open_issues_count': repos[repo].open_issues_count || 0,
