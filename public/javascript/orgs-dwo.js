@@ -99,6 +99,7 @@ module.exports = {
     {"name": "tosca-lang/tosca", "type": "repo"},
     {"name": "solo5/solo5", "type": "repo"},
     {"name": "amalgam8", "type": "org"},
-    {"name": "ibm-cds-labs/simple-search-service", "type": "repo"}
+    {"name": "ibm-cds-labs/simple-search-service", "type": "repo"},
+    {"name": "openmainframeproject/ade", "type": "repo"}
   ]
 };
