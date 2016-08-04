@@ -75,7 +75,7 @@ module.exports = {
     {"name": "OSLC/ldp-service", "type": "repo"},
     {"name": "IBM/SparkMultiuserBenchmark", "type": "repo"},
     {"name": "zosconnect/zosconnect-node", "type": "repo"},
-    {"name": "project-humix/humix-ng", "type": "repo"},
+    {"name": "project-humix/humix-think", "type": "repo"},
     {"name": "ot4i/perf-harness", "type": "repo"},
     {"name": "aruniyengar/storage-manager", "type": "repo"},
     {"name": "strongloop/loopback", "type": "repo"},
