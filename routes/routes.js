@@ -4,6 +4,7 @@ module.exports = function(app, passport) {
   var mysql           = require('mysql');
   var config          = appConfig;
   var DateTime        = require('date-time-string');
+  var rp              = require('request-promise');
   //var ibmdb           = require('ibm_db');
 
   // sample odbc string for DB2
@@ -77,6 +78,40 @@ module.exports = function(app, passport) {
     });
   });
 
+  app.post('/repolist', function(req, res) {
+    var sorting_desceding = true;
+    //determine the sort order from the querystring
+    if (req.query.jtSorting !== undefined){
+       //Two possible values are ASC and DESC. If the last three characters of a value are ESC then 
+       //we assume they passed DESC else default to ASC
+       sorting_descending = (req.query.jtSorting.substring(req.query.jtSorting.length-3)==='ESC');
+    }    
+     
+    var options = {
+    uri: 'https://dwotrends.mybluemix.net/getrepos',
+    
+    headers: {
+        'User-Agent': 'Request-Promise'
+    },
+    json: true // Automatically parses the JSON string in the response 
+    };
+ 
+   rp(options)
+    .then(function (repos) {
+        console.log('User has %d repos', repos.length);
+        var json_obj = {};
+    	json_obj.Result = "OK";
+    	json_obj.Records = repos.data;
+    	//adjust all the parameter that allows us to paginate the table
+    	json_obj.TotalRecordCount=repos.length
+    	res.send(json.stringify(json_obj));
+    })
+    .catch(function (err) {
+        // API call failed...
+    	console.log("We just failed....")
+    });
+        
+});
 
 
   // =====================================

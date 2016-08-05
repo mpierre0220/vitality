@@ -44,6 +44,7 @@ function getRepo(org, token) {
       json: true
     }
 
+    console.log("using JSON object options to query the repos: "+JSON.stringify(options));
     rp(options)
     .then(function (result) {
       if (!Array.isArray(result)) {

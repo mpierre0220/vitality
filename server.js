@@ -142,6 +142,9 @@ var port = (ibmconfig.getPort() || 3000);
 var host = (process.env.VCAP_APP_HOST || 'localhost');
 
 // create an express app
+var engines = require('consolidate');
+app.engine('jade', engines.jade);
+app.engine('handlebars', engines.handlebars);
 app.set('views', __dirname + '/views');
 app.engine('html', require('ejs').renderFile);
 
