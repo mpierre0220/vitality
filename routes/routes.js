@@ -77,8 +77,11 @@ module.exports = function(app, passport) {
                              useAuth: useAuth
     });
   });
-
-  app.post('/repolist', function(req, res) {
+  
+app.get('/repos', function(req, res) {
+  res.render('jtable', { title: 'Express' });
+});
+app.post('/repolist', function(req, res) {
     var sorting_desceding = true;
     //determine the sort order from the querystring
     if (req.query.jtSorting !== undefined){
